@@ -5,6 +5,7 @@ import FeatureSectionBrekfast from "./components/FeatureSectionBreakfast"
 import FeatureSectionEruits from "./components/FeatureSectionEruits"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import NewsLatter from "./components/NewsLatter"
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     <FeatureSectionBrekfast/>
     <BannerSection/>
     <BlogSection/>
+    <NewsLatter/>
    </main>
   )
 }
