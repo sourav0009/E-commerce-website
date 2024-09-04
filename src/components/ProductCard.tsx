@@ -1,6 +1,6 @@
 import { AiFillStar} from "react-icons/ai"
 import { CiStar } from "react-icons/ci";
-import { HiOutlineShoppingBag } from "react-icons/hi";
+import { IoBagOutline } from "react-icons/io5";
 interface propsType {
     img:string;
     name:string;
@@ -22,8 +22,8 @@ const ProductCard:React.FC<propsType> = ({img,name,price}) => {
         </div>
             <h3 className=" font-medium">{name}</h3>
             <h3 className=" text-2xl font-medium text-red-600">{price}</h3>
-            <div className=" absolute -top-4 right-2 bg-current text-white text-[28px] w-[50px] h-[50px] rounded-full grid place-items-center cursor-pointer">
-            <HiOutlineShoppingBag />
+            <div className=" absolute -top-4 right-2 bg-accent text-white text-[28px] w-[50px] h-[50px] rounded-full grid place-items-center cursor-pointer">
+            <IoBagOutline />
             </div>
       </div>
     </div>
