@@ -6,7 +6,7 @@ import CartCountBadge from "./CartCountBadge";
 const Navbar = () => {
   return (
     <nav className="bg-white">
-      <div className=" container hidden lg:block">
+      <div className=" container  lg:block">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Logo</span>
           <div className=" relative w-full max-w-[500px]">
